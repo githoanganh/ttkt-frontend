@@ -1,0 +1,172 @@
+body {
+  background-color: #F5F5F5;
+}
+
+.wrapper {
+  padding: 0px 20px 20px 20px;
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: white;
+}
+
+.wrapper .login {
+  margin-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  padding: 10px;
+  justify-content: center;
+}
+
+.wrapper .login .header {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper .login .header h2 {
+  text-transform: uppercase;
+}
+
+.wrapper .login p {
+  color: gray;
+  font-size: 12px;
+}
+
+.wrapper .login form .boxcheck {
+  text-align: justify;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.wrapper .login form .log {
+  margin-top: 20px;
+  width: 100%;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.wrapper .login form label {
+  font-weight: bolder;
+  font-size: 14px;
+  color: #757575;
+}
+
+.wrapper .login form label .label {
+  margin-bottom: 5px;
+}
+
+.wrapper .login form .log button {
+  background-color: #0097A7;
+  color: white;
+  height: 35px;
+  width: 97%;
+}
+
+.wrapper .login form .log .box {
+  width: 97%;
+}
+
+/* //  #check{
+//      float: left;
+//      margin-right: 7px;
+//  } */
+
+.footer {
+  margin-top: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.footer .light {
+  color: gray;
+}
+
+.footer .bold {
+  margin-left: 10px;
+  font-weight: bold;
+  color: black;
+}
+
+/* //  #check{
+//      float: left;
+//      background-color: #0097A7;
+//  } */
+
+.login form .boxcheck {
+  text-align: justify;
+}
+
+.wrapper .login form .boxcheck .checkbox {
+  display: block;
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 15px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.wrapper .login form .boxcheck .checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.wrapper .login form .boxcheck .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background-color: #eee;
+}
+
+.wrapper .login form .boxcheck .checkbox:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.wrapper .login form .boxcheck .checkbox input:checked ~ .checkmark {
+  background-color: #00BCD4;
+}
+
+.wrapper .login form .boxcheck .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.wrapper .login form .boxcheck .checkbox input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.wrapper .login form .boxcheck .checkbox .checkmark:after {
+  left: 5px;
+  top: 3px;
+  width: 3px;
+  height: 7px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+
+/* Hide the browser's default checkbox */
+
+/* Create a custom checkbox */
+
+/* On mouse-over, add a grey background color */
+
+/* When the checkbox is checked, add a blue background */
+
+/* Create the checkmark/indicator (hidden when not checked) */
+
+/* Show the checkmark when checked */
+
+/* Style the checkmark/indicator */
+

@@ -1,0 +1,156 @@
+.wrapper {
+  padding: 0px 20px 20px 20px;
+  width: 500px;
+  height: 100px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: white;
+}
+
+.wrapper .header {
+  height: 60px;
+  width: 100%;
+  background-color: #0097A7;
+  margin-bottom: 20px;
+}
+
+.wrapper .header h1 {
+  padding-top: 5px;
+  color: #BDBDBD;
+}
+
+.wrapper .body {
+  border: 1px solid gray;
+  box-shadow: -1px 2px 6px 5px gray;
+  height: 400px;
+}
+
+.wrapper .body form p {
+  text-align: justify;
+  padding-left: 50px;
+  color: #00BCD4;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.wrapper .body form .lable {
+  text-align: justify;
+  padding-left: 50px;
+  margin-bottom: 20px;
+}
+
+.wrapper .body form input {
+  font-family: "FontAwesome";
+}
+
+.wrapper .body form .lable input {
+  width: 90%;
+  height: 20px;
+}
+
+.wrapper .body form .lable-1 {
+  text-align: justify;
+  padding-left: 50px;
+  margin-bottom: 20px;
+}
+
+.wrapper .body form .lable-1 input {
+  width: 43%;
+  height: 20px;
+}
+
+.wrapper .body form .lable-1 .lable-1-1 {
+  margin-right: 5px;
+}
+
+.wrapper .body form .boxcheck {
+  text-align: justify;
+  padding-left: 50px;
+  margin-bottom: 20px;
+}
+
+.wrapper .body form .boxcheck a {
+  text-decoration: none;
+  color: #00BCD4;
+}
+
+.wrapper .body form .boxcheck .sub {
+  color: white;
+  background-color: #00BCD4;
+  height: 30px;
+  font-size: 12px;
+  margin-left: 35px;
+}
+
+.wrapper .body form .boxcheck .checkbox {
+  /* display: block; */
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 15px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.wrapper .body form .boxcheck .checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.wrapper .body form .boxcheck .checkbox .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background-color: #eee;
+}
+
+.wrapper .body form .boxcheck .checkbox:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.wrapper .body form .boxcheck .checkbox input:checked ~ .checkmark {
+  background-color: #00BCD4;
+}
+
+.wrapper .body form .boxcheck .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.wrapper .body form .boxcheck .checkbox input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.wrapper .body form .boxcheck .checkbox .checkmark:after {
+  left: 5px;
+  top: 3px;
+  width: 3px;
+  height: 7px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+
+/* Hide the browser's default checkbox */
+
+/* Create a custom checkbox */
+
+/* On mouse-over, add a grey background color */
+
+/* When the checkbox is checked, add a blue background */
+
+/* Create the checkmark/indicator (hidden when not checked) */
+
+/* Show the checkmark when checked */
+
+/* Style the checkmark/indicator */
+
